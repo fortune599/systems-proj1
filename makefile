@@ -3,7 +3,7 @@ GCC = gcc -g
 comp: linkedlist.c linkedlist.h mytunez.c mytunez.h
 	$(GCC) linkedlist.c
 	$(GCC) mytunez.c
-	$(GCC) -o linkedlist.o mytunez.o songtest
+	$(GCC) linkedlist.o mytunez.o -o songtest
 
 run: comp
 	./songtest
