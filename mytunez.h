@@ -16,3 +16,4 @@ void print_library(song_node *table[26]);
 
 void free_library(song_node *table[26]);
 
+void print_letter(song_node *table[26], char c);
